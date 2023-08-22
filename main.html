@@ -4,7 +4,7 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<form>
+	<form method="post">
 		<label for="name">Name</label>
 		<input type="text" id="name" required>
 		</br>
@@ -22,7 +22,7 @@
 		</br>
 
 		<label for="cars">Choose Your Cars</label>
-		<select id="cars" name="cars">
+		<select id="cars" name="cars" requered>
 			<option>BMW</option>
 			<option>Audi</option>
 			<option>Mercedez</option>
@@ -37,7 +37,8 @@
 		<input type="password" id="password" required>
 		</br>
 
-		<input type="button" value="Submit">
+		<button type="submit">Submit</button>
+<!-- 		<input type="button" value="Submit"> -->
 	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
